@@ -592,3 +592,55 @@ footer > span {
     width: 75px;
   }
 }
+/* PREMIUM DESIGN ENHANCEMENTS */
+
+.navbar {
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.movie-card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.movie-poster {
+  border: 1px solid #ffffff15;
+  box-shadow: 0 8px 25px #0005;
+  transition: all 0.35s ease;
+}
+
+.movie-card:hover .movie-poster {
+  border-color: #d7ff64;
+  box-shadow: 0 12px 35px #d7ff6420;
+}
+
+.heart-btn {
+  transition: all 0.3s ease;
+}
+
+.heart-btn:hover {
+  background: #d7ff64;
+  color: #090a0e;
+  transform: scale(1.12);
+}
+
+.category {
+  transition: all 0.3s ease;
+}
+
+.primary-btn,
+.secondary-btn {
+  transition: all 0.3s ease;
+}
+
+.search-box:focus-within {
+  border-color: #d7ff64;
+  box-shadow: 0 0 15px #d7ff6420;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #d7ff64;
+  outline-offset: 4px;
+}
